@@ -1,0 +1,56 @@
+*{
+	font-family: "Roboto", sans-serif;
+}
+
+h1,h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	object-fit: cover;
+	border: 5px solid #EADDCA;
+	border-radius: 100%;
+}
+
+#landing {
+	/*vh - viewport height dependent on the user monitor screen*/
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#gallery {
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+	color: #9A610D;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h2 {
+	color: #044D17;
+	font-size: 5.0vh;
+}
+
+.tools {
+	border: 5px solid #044D17;
+	height: 200px;
+	width: 75%;
+	margin: 20px;
+	padding: 25px;
+}
